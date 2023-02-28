@@ -1,0 +1,55 @@
+@tailwind components;
+@tailwind base;
+@tailwind utilities;
+
+@font-face {
+	font-family: Modish;
+	font-display: block;
+	src: url(./assets/modish-logofont.woff2);
+}
+
+@font-face {
+	font-family: FiraMono;
+	font-display: block;
+	src: url(./assets/FiraMono-Regular.otf);
+}
+
+.console-font{
+    font-family: FiraMono;
+}
+
+.odyssey{
+    font-family: Modish;
+    font-size: 60px;
+}
+
+.jb-btn{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.table{
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+body{
+    background: linear-gradient(340deg, #ff8a4b, #cf86fa);
+    background-size: 200% 200%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+    color:white;
+    overflow: hidden;
+    touch-action: none;
+    -webkit-user-select: none;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 50% 100%;
+	}
+	100% {
+		background-position: 50% 0%;
+	}
+}

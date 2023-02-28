@@ -1,0 +1,8 @@
+{
+    "name": "Odyssey",
+    "short_name": "odsy",
+    "display": "standalone",
+    "orientation": "landscape",
+    "start_url": "odyssey-jb.netlify.app",
+    "scope": "odyssey-jb.netlify.app"
+ }
